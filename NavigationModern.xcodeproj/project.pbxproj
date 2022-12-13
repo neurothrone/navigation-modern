@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2F9C13AB2947FE84008440EE /* NavigationOptimal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationOptimal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F9C13AB2947FE84008440EE /* NavigationModern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationModern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F9C13AE2947FE84008440EE /* AppMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMain.swift; sourceTree = "<group>"; };
 		2F9C13B02947FE84008440EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2F9C13B22947FE85008440EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -47,7 +47,7 @@
 		2F9C13A22947FE84008440EE = {
 			isa = PBXGroup;
 			children = (
-				2F9C13AD2947FE84008440EE /* NavigationOptimal */,
+				2F9C13AD2947FE84008440EE /* NavigationModern */,
 				2F9C13AC2947FE84008440EE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,12 +55,12 @@
 		2F9C13AC2947FE84008440EE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2F9C13AB2947FE84008440EE /* NavigationOptimal.app */,
+				2F9C13AB2947FE84008440EE /* NavigationModern.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2F9C13AD2947FE84008440EE /* NavigationOptimal */ = {
+		2F9C13AD2947FE84008440EE /* NavigationModern */ = {
 			isa = PBXGroup;
 			children = (
 				2F9C13AE2947FE84008440EE /* AppMain.swift */,
@@ -70,7 +70,7 @@
 				2F9C13B22947FE85008440EE /* Assets.xcassets */,
 				2F9C13B42947FE85008440EE /* Preview Content */,
 			);
-			path = NavigationOptimal;
+			path = NavigationModern;
 			sourceTree = "<group>";
 		};
 		2F9C13B42947FE85008440EE /* Preview Content */ = {
@@ -112,9 +112,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2F9C13AA2947FE84008440EE /* NavigationOptimal */ = {
+		2F9C13AA2947FE84008440EE /* NavigationModern */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2F9C13B92947FE85008440EE /* Build configuration list for PBXNativeTarget "NavigationOptimal" */;
+			buildConfigurationList = 2F9C13B92947FE85008440EE /* Build configuration list for PBXNativeTarget "NavigationModern" */;
 			buildPhases = (
 				2F9C13A72947FE84008440EE /* Sources */,
 				2F9C13A82947FE84008440EE /* Frameworks */,
@@ -124,9 +124,9 @@
 			);
 			dependencies = (
 			);
-			name = NavigationOptimal;
+			name = NavigationModern;
 			productName = NavigationOptimal;
-			productReference = 2F9C13AB2947FE84008440EE /* NavigationOptimal.app */;
+			productReference = 2F9C13AB2947FE84008440EE /* NavigationModern.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -144,7 +144,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2F9C13A62947FE84008440EE /* Build configuration list for PBXProject "NavigationOptimal" */;
+			buildConfigurationList = 2F9C13A62947FE84008440EE /* Build configuration list for PBXProject "NavigationModern" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -157,7 +157,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2F9C13AA2947FE84008440EE /* NavigationOptimal */,
+				2F9C13AA2947FE84008440EE /* NavigationModern */,
 			);
 		};
 /* End PBXProject section */
@@ -314,7 +314,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"NavigationOptimal/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"NavigationModern/Preview Content\"";
 				DEVELOPMENT_TEAM = 4BP826FJGX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -328,7 +328,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.neurothrone.NavigationOptimal;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.neurothrone.NavigationModern;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -343,7 +343,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"NavigationOptimal/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"NavigationModern/Preview Content\"";
 				DEVELOPMENT_TEAM = 4BP826FJGX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -357,7 +357,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.neurothrone.NavigationOptimal;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.neurothrone.NavigationModern;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -368,7 +368,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2F9C13A62947FE84008440EE /* Build configuration list for PBXProject "NavigationOptimal" */ = {
+		2F9C13A62947FE84008440EE /* Build configuration list for PBXProject "NavigationModern" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2F9C13B72947FE85008440EE /* Debug */,
@@ -377,7 +377,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2F9C13B92947FE85008440EE /* Build configuration list for PBXNativeTarget "NavigationOptimal" */ = {
+		2F9C13B92947FE85008440EE /* Build configuration list for PBXNativeTarget "NavigationModern" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2F9C13BA2947FE85008440EE /* Debug */,
