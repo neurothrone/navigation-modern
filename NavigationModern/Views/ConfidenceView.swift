@@ -45,6 +45,12 @@ struct ConfidenceView: View {
         MediaPlayerView(meditation: meditation)
       }
       
+      List(Meditation.allSamplesExcept(meditation: meditation)) { med in
+        NavigationLink(value: med) {
+          Label(med.title, systemImage: med.systemImage)
+        }
+      }
+      
       Spacer()
     }
     .navigationBarBackButtonHidden(true)

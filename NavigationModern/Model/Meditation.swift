@@ -12,11 +12,13 @@ struct Meditation: Identifiable {
   let title: String
   let systemImage: String
   
-  static var samples: [Meditation] {
-    [
-      .init(title: "Sunshine", systemImage: "sun.max.fill"),
-      .init(title: "Sleep", systemImage: "bed.double.fill")
-    ]
+  static let samples: [Meditation] = [
+    .init(title: "Sunshine", systemImage: "sun.max.fill"),
+    .init(title: "Sleep", systemImage: "bed.double.fill")
+  ]
+  
+  static func allSamplesExcept(meditation: Meditation) -> [Meditation] {
+    samples.filter { $0.id != meditation.id }
   }
 }
 

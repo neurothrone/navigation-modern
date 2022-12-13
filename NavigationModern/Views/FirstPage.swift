@@ -31,13 +31,7 @@ struct FirstPage: View {
       
       List(meditations) { meditation in
         NavigationLink(meditation.title, value: meditation)
-//        NavigationLink {
-//          ConfidenceView(meditation: meditation)
-//        } label: {
-//          Text("Go to Confidence View")
-//        }
       }
-
       
       Spacer()
     }
