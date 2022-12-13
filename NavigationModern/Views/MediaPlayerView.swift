@@ -16,11 +16,14 @@ struct MediaPlayerView: View {
   var body: some View {
     VStack(spacing: 20) {
       HStack {
-        Button("Dismiss", action: { dismiss() })
+        Button(action: { dismiss() }) {
+          Label("Dismiss", systemImage: "xmark.circle.fill")
+        }
         Spacer()
         Button(action: navigator.goToHomePage) {
           Image(systemName: "house.circle.fill")
             .imageScale(.large)
+            .foregroundColor(.purple)
         }
       }
       .padding(.horizontal)

@@ -15,14 +15,16 @@ struct ContentView: View {
       Text("This is the Main Screen")
         .font(.largeTitle.bold())
       
-      Text("Navigate to First Page")
+
+      NavigationLink(value: Destination.firstPage) {
+        Label("Navigate to First Page By NavigationLink", systemImage: "arrowshape.right.fill")
+      }
       
-      NavigationLink("By NavigationLink", value: Destination.firstPage)
-      
-      Button("By Button", action: navigator.goToFirstPageByButton)
-        .tint(.purple)
-        .buttonStyle(.borderedProminent)
-      
+      Button(action: navigator.goToFirstPageByButton) {
+        Label("Navigate to First Page By Button", systemImage: "arrowshape.right.fill")
+      }
+      .buttonStyle(.borderedProminent)
+
       Spacer()
     }
     .padding()

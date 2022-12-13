@@ -16,9 +16,14 @@ struct SecondPage: View {
         .font(.largeTitle.bold())
       
       Group {
-        Button("Navigate Back to First Page", action: navigator.goBackOneLevel)
-        Button("Navigate back to Main Screen", action: navigator.goToHomePage)
-          .tint(.purple)
+        Button(action: navigator.goToSecondPageByButton) {
+          Label("Navigate Back to First Page", systemImage: "arrowshape.left.fill")
+        }
+        
+        Button(action: navigator.goToHomePage) {
+          Label("Navigate back to Main Screen", systemImage: "house.fill")
+        }
+        .tint(.purple)
       }
       .buttonStyle(.borderedProminent)
       
