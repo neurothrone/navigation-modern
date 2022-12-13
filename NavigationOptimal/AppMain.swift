@@ -9,9 +9,17 @@ import SwiftUI
 
 @main
 struct AppMain: App {
+  @StateObject var navigator = Navigator()
+  
   var body: some Scene {
     WindowGroup {
-      ContentView()
+      NavigationStack(path: $navigator.path) {
+        ContentView()
+          .navigationDestination(for: Destination.self) { destination in
+            Navigator.viewForDestination(destination)
+          }
+      }
+      .environmentObject(navigator)
     }
   }
 }
